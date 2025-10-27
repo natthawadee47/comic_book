@@ -35,6 +35,7 @@ class ComicDetailScreen extends StatelessWidget {
                   Container(color: Colors.grey.shade200),
             ),
           ),
+         
           Container(color: Colors.black.withOpacity(0.5)),
           SingleChildScrollView(
             padding: const EdgeInsets.symmetric(vertical: 60, horizontal: 20),

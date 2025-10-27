@@ -138,6 +138,7 @@ class ComicListScreen extends StatelessWidget {
                                         ),
                                       );
                                       if (confirm == true) {
+                                        
                                         await context.read<ComicProvider>().deleteComic(comic.id!);
                                         if (!context.mounted) return;
                                         ScaffoldMessenger.of(context).showSnackBar(
